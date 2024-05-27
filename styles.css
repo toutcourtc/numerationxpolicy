@@ -1,0 +1,50 @@
+body{
+    background-color: #D5D8DC;
+}
+h1{
+    text-align : center;
+}
+h2{
+    text-decoration: underline;
+}
+.langue{
+    /* border : 1px solid black; */
+    padding : 5px;
+    margin : 10px auto;
+    display : table;
+}
+.langue li{
+    display : table-cell;
+    margin-left : 0 5px;
+    /* border : 1px solid red; */
+}
+.langue>:first-child{
+    border-right : 1px solid black;
+    color : red;
+}
+.langue li a{
+    display : inline-block;
+    /* border : 1px solid green; */
+    padding : 5px;
+    text-decoration : none;
+}
+.main{
+    border: 1px solid black;
+    width: 60%;
+    margin: auto;
+    padding : 20px;
+}
+p{
+    font-size : 18px;
+    line-height : 1.5;
+    margin-left : 50px;
+    text-align: justify;
+}
+@media screen and (max-width:800px) {
+    .main{
+        width: 95%;
+    }
+    p{
+        margin-left: 20px;
+    }
+}
