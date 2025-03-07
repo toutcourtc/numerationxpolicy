@@ -40,6 +40,9 @@ p{
     margin-left : 50px;
     text-align: justify;
 }
+ul{
+    margin-left: 100px;
+}
 @media screen and (max-width:800px) {
     .main{
         width: 95%;
